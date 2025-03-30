@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.4.1)  # for example
 
+# Set C++ standard
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 add_library( mecab_dart
 
     # Sets the library as a shared library.
